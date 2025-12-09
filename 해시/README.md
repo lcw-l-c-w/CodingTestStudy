@@ -44,12 +44,30 @@
 import java.util.Map;
 import java.util.HashMap;
 ```
+| 메서드                          | 설명                       | 예시                          |
+| ---------------------------- | ------------------------ | --------------------------- |
+| `put(key, value)`            | 값 저장 또는 덮어쓰기             | `map.put("a", 1);`          |
+| `get(key)`                   | key의 value 반환 (없으면 null) | `map.get("a");`             |
+| `getOrDefault(key, default)` | key 없을 때 default 값 반환    | `map.getOrDefault("b", 0);` |
+| `containsKey(key)`           | key 존재 여부 확인             | `map.containsKey("a");`     |
+| `remove(key)`                | key 삭제                   | `map.remove("a");`          |
+| `replace(key, value)`        | key 존재할 때만 변경            | `map.replace("a", 5);`      |
+| `size()`                     | 저장된 개수                   | `map.size();`               |
+| `isEmpty()`                  | 비어있는지                    | `map.isEmpty();`            |
 
 
 ### HashSet 기본 함수
 
-### Map 순회
+| 메서드               | 설명    | 예시                   |
+| ----------------- | ----- | -------------------- |
+| `add(value)`      | 값 추가  | `set.add("a");`      |
+| `contains(value)` | 포함 여부 | `set.contains("a");` |
+| `remove(value)`   | 값 삭제  | `set.remove("a");`   |
+| `size()`          | 크기    | `set.size();`        |
+| `isEmpty()`       | 비어있는지 | `set.isEmpty();`     |
 
+
+### Map 순회
 
 * **반복자 Iterator**
     ```java
@@ -82,17 +100,75 @@ import java.util.HashMap;
     ```
 
 * **forEach**
-```java
+    ```java
+    HashMap<String, String> map = new HashMap<String, String>();
+    map.put("a", "val1");
+    map.put("b", "val2");
+    map.put("c", "val3");
+            
+    map.forEach((k, v) -> {
+        System.out.println(String.format("키: %s, 값: %s", k, v));
+    });
+    ```
 
-```
+#### Map.Entry
+
+* Map.Entry는 Map 내부에서 한 쌍의 (key, value)를 표현하기 위한 **내부 인터페이스(타입)**
+* key와 value를 동시에 가져오고 싶을 때 사용하는 구조
+* 예시
+    | 개념          | 비유                    |
+    | ----------- | --------------------- |
+    | `Map`       | 전화번호부                 |
+    | `Key`       | 사람 이름                 |
+    | `Value`     | 전화번호                  |
+    | `Map.Entry` | 이름 + 전화번호가 묶인 한 줄 데이터 |
 
 
-compareTo vs compare override, Map.Entry와 EntrySet
+* 순회 예시  
+    ❌ 나쁜 방식 (O(N) 조회 반복 → 비효율)  
+    ```java
+    for(String key : map.keySet()) {
+        System.out.println(key + " : " + map.get(key)); // get() 반복 호출 비용↑
+    }
+    ```  
+
+    ✅ 좋은 방식 (entrySet() 사용)  
+    ```java
+    for(Map.Entry<String, Integer> entry : map.entrySet()) {
+        System.out.println(entry.getKey() + " = " + entry.getValue());
+    }
+    ```
+
+* Entry 메소드
+    | 메서드          | 설명       |
+    | ------------- | -------- |
+    | `getKey()`    | key 반환   |
+    | `getValue()`  | value 반환 |
+    | `setValue(v)` | value 변경 |
+
+* 시간복잡도
+
+    | 자료구조    | 평균   | 최악                       | 비고          |
+    | ------- | ---- | ------------------------ | ----------- |
+    | HashMap | O(1) | O(n) → Java8 이후 O(log n) | 충돌 시 트리     |
+    | HashSet | O(1) | O(n) → Java8 이후 O(log n) | 내부는 HashMap |
+
+ 
 
 ### Map 정렬
 
 * key 기준 정렬
 
 * value 기준 정렬
+
+compareTo vs compare override, 
+
+### 요약
+
+> HashMap: key→value 매핑, 카운팅 문제에 최강자
+
+> HashSet: 중복 제거, prefix/중복 검사 문제에 자주 사용
+
+> entrySet(): key/value를 동시에 꺼낼 때 사용 → keySet()+get()보다 효율적
 
 ### (참고)List to Array
