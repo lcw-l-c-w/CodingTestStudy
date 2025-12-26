@@ -11,7 +11,9 @@
 | 25.12.16 | 완전탐색 | [적어도 대부분의 배수](https://www.acmicpc.net/problem/1145)  <br> [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)   <br> [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) | 실버2 <br>  <img src="https://img.shields.io/badge/Lv.1-1185FE?style=plastic"/> <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>   | <br><br><br>|
 | 25.12.18 | 그리디 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541)   | 실버2  |  |
 | 25.12.19 | 수학 | [최대공약수](https://www.acmicpc.net/problem/1850)   | 실버1  |  |
-
+| 25.12.25 | 순열과조합 | [N과 M (2)](https://www.acmicpc.net/problem/15650)   | 실버3  |  |
+| 25.12.26 | DFS | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) <br> [타켓넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)  | 실버2 <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>  |  |
+| 25.12.27 | BFS | [DFS와 BFS](https://www.acmicpc.net/problem/1260) <br> [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)  | 실버2 <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>  |  |
 
 ## 📅진도
 
