@@ -11,13 +11,19 @@
 | 25.12.16 | 완전탐색 | [적어도 대부분의 배수](https://www.acmicpc.net/problem/1145)  <br> [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)   <br> [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) | 실버2 <br>  <img src="https://img.shields.io/badge/Lv.1-1185FE?style=plastic"/> <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>   | <br><br><br>|
 | 25.12.18 | 그리디 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541)   | 실버2  |  |
 | 25.12.19 | 수학 | [최대공약수](https://www.acmicpc.net/problem/1850)   | 실버1  |  |
-| 25.12.25 | 순열과조합 | [N과 M (2)](https://www.acmicpc.net/problem/15650)   | 실버3  |  |
-| 25.12.26 | DFS | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) <br> [타켓넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)  | 실버2 <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>  |  |
-| 25.12.27 | BFS | [DFS와 BFS](https://www.acmicpc.net/problem/1260) <br> [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)  | 실버2 <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>  |  |
-| 25.12.29 | 이진탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) <br> [게임](https://www.acmicpc.net/problem/1072) <br>[순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412)  | 실버4 <br> 실버3 <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>  |  |
+| 25.12.25 | 순열과조합 | [N과 M (2)](https://www.acmicpc.net/problem/15650)   | 실버3  | O   |
+| 25.12.26 | DFS | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) <br> [타켓넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)  | 실버2 <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>  | <br>O  |
+| 25.12.27 | BFS | [DFS와 BFS](https://www.acmicpc.net/problem/1260) <br> [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)  | 실버2 <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>  |  <br>O |
+| 25.12.29 | 이진탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) <br> [게임](https://www.acmicpc.net/problem/1072) <br>[순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412)  | 실버4 <br> 실버3 <br> <img src="https://img.shields.io/badge/Lv.2-3DA639?style=plastic"/>  | O<br> |
 | 25.12.30 | 다익스트라 | [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) <br> [최소 비용 구하기](https://www.acmicpc.net/problem/1916) | 실버2 <br> 골드5 | |
+| 26.01.06 | 트리 | [트리의 부모찾기](https://www.acmicpc.net/problem/11725) | 실버2 | O | 
+| 26.01.07 | 동적계획법 | [퇴사](https://www.acmicpc.net/problem/14501) | 실버3 | O |
+| 26.01.08 | 백트래킹 | [N-Queen](https://www.acmicpc.net/problem/9663) | 골드4 | O |
+
 
 ## 📅진도
+
+### 12월
 
 | Sun | Mon | Tue | Wed | Thu   | Fri | Sat |
 | --- | --- | --- | --- | ----- | --- | --- |
@@ -26,4 +32,15 @@
 | 14 <br>  | 15 <br> 정렬 | 16 <br> 완전탐색| 17 <br> 💻✍🏼 | 18 <br> 그리디  | 19 <br> 수학 | 20 <br> |
 | 21 <br> | 22 <br> | 23 <br> | 24 <br>💻✍🏼| 25<br>조합순열  | 26 <br>DFS | 27 <br> BFS |
 | 28 <br> | 29 <br>이진탐색 | 30 <br>다익스트라 | 31 <br>💻✍🏼  |       |     |     |
+
+
+### 1월
+
+| Sun | Mon | Tue | Wed | Thu   | Fri | Sat |
+| --- | --- | --- | --- | ----- | --- | --- |
+|     |     |     |     | 1<br>  | 2 <br>   | 3 <br>  |
+| 4 <br>  | 5  <br> | 6 <br> 트리  | 7 <br> 동적계획법 | 8 <br> 백트래킹 | 9<br> 💻✍   | 10 <br> |
+| 11 <br>  | 12 <br> | 13 <br> | 14 <br> 💻✍🏼 | 15 <br>   | 16 <br>  | 17 <br> |
+| 18 <br> | 19 <br> | 20 <br> | 21 <br>💻✍🏼| 22 <br>  | 23 <br> | 24 <br>  |
+| 25 <br> | 26 <br> | 28 <br> | 29 <br>💻✍🏼  | 30 <br>   | 31 <br>    |     |
 
